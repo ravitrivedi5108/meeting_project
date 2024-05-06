@@ -84,7 +84,7 @@ const MeetingTypeList = () => {
         className="bg-blue-1"
         handleClick={() => setMeetingState('isJoiningMeeting')}
       />
-      <HomeCard
+      {/* <HomeCard
         img="/icons/schedule.svg"
         title="Schedule Meeting"
         description="Plan your meeting"
@@ -97,7 +97,7 @@ const MeetingTypeList = () => {
         description="Meeting Recordings"
         className="bg-yellow-1"
         handleClick={() => router.push('/recordings')}
-      />
+      /> */}
 
       {!callDetail ? (
         <MeetingModal
